@@ -1,0 +1,3449 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html body {
+  font-family: 'montserrat', sans-serif;
+}
+
+/* Navbar section starts */
+.navbar {
+  z-index: 200;
+}
+.navbar .navbar-brand img {
+  width: 5.5rem;
+}
+.navbar .nav-link {
+  color: #112D35;
+  font-size: 0.9rem;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 1px solid #1F94AA;
+}
+
+.navbar .btn-link:hover {
+  border: none;
+}
+
+.nav-btn {
+  background: #1F94AA;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+/* Navbar section ends */
+
+/* Hero section starts */
+.hero-section {
+  background: #F7F7FE;
+  z-index: 1;
+}
+
+.hero-writeup {
+  width: 50%;
+}
+
+.hero-writeup span h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #112D35;
+  line-height: 55px;
+  width: 80%;
+}
+
+.hero-writeup h1 span {
+  border-bottom: 5px solid #1F94AA;
+}
+
+.hero-writeup span p {
+  font-size: 0.9rem;
+  color: #3F555D;
+  width: 63%;
+}
+
+.hero-btn {
+  background: #1F94AA;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.6rem 3rem;
+  border-radius: 10px;
+  transition: border-radius 0.1s;
+  transition: background-color 0.3s ease-out;
+}
+
+.hero-btn:hover {
+  border-radius: 15px;
+  background: #095664;
+}
+
+.img-container {
+  width: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.img-container .star-img {
+  width: 39rem;
+  position: absolute;
+  top: -5.5rem;
+  right: 0;
+  z-index: -1;
+}
+
+.img-container .star-mobile {
+  display: none;
+}
+/* Hero section ends */
+
+/* News section starts */
+.news-section span h6 {
+  color: #C4C4C4;
+}
+
+.news-1 img {
+  padding: 0 4rem;
+  animation: slideLeft 3s linear infinite;
+}
+
+.news-2 img {
+  padding: 0 3rem;
+}
+
+/* News section ends */
+
+/* Test section starts */
+.test-div h3 {
+  color: #112D35;
+}
+
+.test-div h3 span {
+  border-bottom: 3px solid #1F94AA;
+}
+
+.test-div p {
+  font-size: 0.8rem;
+  line-height: 21px;
+}
+
+.test-div p span {
+  color: #3F555D;
+}
+
+.core-img {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-top: -0.5rem;
+}
+
+.cross-img {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-top: -0.5rem;
+}
+/* Test section ends */
+
+/* Chart section starts */
+.chart-container {
+  background: #F7F7FE;
+  border-radius: 30px;
+}
+
+.chart-div {
+  padding-left: 5rem;
+}
+
+.chart-writeup {
+  width: 65%;
+}
+
+.chart-writeup span h2 {
+  color: #112D35;
+  width: 50%;
+  line-height: 45px;
+}
+
+.chart-writeup h2 span {
+  border-bottom: 4px solid #1F94AA;
+}
+
+.chart-writeup p {
+  font-size: 0.9rem;
+  width: 55%;
+}
+
+.chart-writeup p span {
+  color: #3F555D;
+}
+
+.chart-btn {
+  background: #1F94AA;
+  font-size: 0.8rem;
+  padding: 0.6rem 1.5rem;
+}
+
+.chart-img {
+  width: 35%;
+}
+
+.chart-img img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.chart-img .chart-mobile {
+  display: none;
+}
+
+.track-img {
+  width: 60%;
+}
+
+.track-writeup {
+  width: 40%;
+}
+
+.track-writeup span h2 {
+  color: #112D35;
+  width: 60%;
+  line-height: 45px;
+}
+
+.track-writeup h2 span {
+  border-bottom: 4px solid #1F94AA;
+}
+
+.track-writeup p {
+  font-size: 0.9rem;
+}
+
+.track-writeup li {
+  list-style: none;
+}
+
+.track-writeup li::before {
+  content: ".";
+  font-size: 6rem;
+  line-height: 15px;
+}
+
+.track-writeup li:nth-child(1) {
+  color: #1F94AA;
+}
+
+.track-writeup li:nth-child(2) {
+  color: #AA92E1;
+}
+
+.track-writeup li:nth-child(3) {
+  color: #78B1FA;
+}
+
+
+.track-writeup li a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #3F555D;
+}
+/* Chart section ends */
+
+/* Measure section starts */
+.measure-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.conception span h3 {
+  width: 70%;
+  line-height: 40px;
+}
+
+.conception h3 span {
+  border-bottom: 3px solid #1F94AA;
+}
+
+.doctor img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.doctor h4 {
+  font-size: 0.8rem;
+  line-height: 15px;
+}
+
+.doctor h4 span {
+  font-size: 0.7rem;
+}
+
+.progesterone {
+  background: #F7F7FE;
+  border-radius: 30px;
+  position: relative;
+}
+
+.progesterone p {
+  font-size: 0.9rem;
+  color: #3F555D;
+}
+
+.progesterone span h6 {
+  font-size: 0.7rem;
+  color: #1F94AA;
+}
+
+.progesterone .fill-img {
+  width: 15rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom-right-radius: 30px;
+}
+/* Measure section ends */
+
+/* Unique section starts */
+.unique-section span h3 {
+  color: #112D35;
+}
+
+.unique-div {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  align-items: center;
+  gap: 20%;
+  margin-top: 4rem;
+}
+
+.unique-img img {
+  width: 100%;
+}
+
+.unique-writeup h3 {
+  width: 70%;
+  line-height: 35px;
+}
+
+.unique-writeup h3 span {
+  border-bottom: 3px solid #1F94AA;
+}
+
+.unique-writeup div img {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: -0.8rem 0 0 -1rem;
+}
+
+.unique-writeup span p {
+  font-size: 0.9rem;
+}
+
+.unique-btn {
+  background: #1F94AA;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.6rem 1.5rem;
+}
+/* Unique section ends */
+
+/* Ovulation section starts */
+.ovulation-section {
+  padding: 6rem 3rem 1rem 6rem;
+}
+
+.ovulation-div {
+  width: 50%;
+}
+
+
+.ovulation-div span h3 {
+  width: 60%;
+  color: #112D35;
+  line-height: 35px;
+}
+
+.ovulation-div h3 span {
+  border-bottom: 3px solid #1F94AA;
+}
+
+.core {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin: -0.5rem 0 0 1rem;
+}
+
+.ovulation-div span p {
+  font-size: 0.9rem;
+  width: 62%;
+}
+
+.ovulation-div span h6 {
+  font-size: 1rem;
+}
+
+.ovulation-div li {
+  font-size: 0.9rem;
+}
+
+.ovulation-img {
+  width: 40%;
+}
+
+.ovulation-img img {
+  width: 100%;
+}
+/* Ovulation section ends */
+
+/* Hormones section starts */
+.hormones-section span h3 {
+  color: #112D35;
+}
+
+.hormones-div {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.hormones-img img {
+  width: 100%;
+}
+
+.hormones-writeup h3 {
+  width: 75%;
+  line-height: 38px;
+}
+
+.hormones-writeup h3 span {
+  border-bottom: 3px solid #1F94AA;
+}
+
+.hormones-writeup div img {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: -0.8rem 0 0 -1rem;
+}
+
+.hormones-writeup span p {
+  font-size: 0.9rem;
+}
+
+.hormones-btn {
+  background: #1F94AA;
+  font-size: 0.8rem;
+  padding: 0.6rem 1.5rem;
+}
+/* Hormones section ends */
+
+/* Fertility section starts */
+.fertility-section {
+  display: grid;
+  grid-template-columns: 35% 55%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fertility-writeup span h3 {
+  color: #112D35;
+  line-height: 40px;
+  width: 80%;
+}
+
+.fertility-writeup h3 span {
+  border-bottom: 3px solid #1F94AA;
+}
+
+.fertility-writeup span p {
+  font-size: 0.9rem;
+  color: #3F555D;    
+}
+
+.fertility-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  cursor: pointer;
+}
+
+.fertility-div div img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.fertility-div div img:hover {
+  transform: scale(1.1);
+}
+
+.info span p {
+  font-size: 0.8rem;
+  color: #112D35;
+}
+
+.info div {
+  background: #EEEEF5;
+}
+
+.fertility-btn {
+  background: #1F94AA;
+  font-size: 0.8rem;
+  padding: 0.6rem 1.5rem;
+}
+
+.fertility-writeup h6 {
+  color: #88969A;
+  font-size: 0.7rem;
+  line-height: 20px;
+}
+/* Fertility section ends */
+
+/* Monitor section starts */
+.monitor-div {
+  background: #F7F7FE;
+  border-radius: 30px;
+  position: relative;
+}
+
+.monitor-div .fill {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 15.5rem;
+  border-bottom-left-radius: 30px;
+}
+
+.monitor-div .dots-img {
+  position: absolute;
+  right: 3rem;
+  top: -1.5rem;
+  width: 5rem;
+}
+
+.monitor-div span h4 {
+  font-size: 0.8rem;
+  color: #112D35;
+}
+
+.monitor-div span p {
+  font-size: 0.7rem;
+  color: #88969A;
+}
+
+.monitor-writeup span h6 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+}
+/* Monitor section styles */
+
+/* Question section styles */
+.question-section {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question-section span h3 {
+  color: #112D35;
+  width: 90%; 
+}
+
+.question-section img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: -1rem 0 0 -9rem;
+}
+
+.question-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+} 
+
+.question-container div {
+  background: #F7F7FE;
+  border-radius: 20px;
+}
+
+.question-container div span h5 {
+  color: #112D35;
+}
+
+.question-container div span p {
+  font-size: 0.8rem;
+  color: #3F555D;
+}
+/* Question section ends */
+
+/* Footer section starts */
+footer {
+  background: #112D35;
+}
+
+.footer-div {
+  gap: 6rem;
+}
+
+.footer-div img {
+  width: 2.8rem;
+}
+
+.footer-div h6 {
+  font-size: 0.8rem;
+}
+
+.footer-links-container {
+  display: grid;
+  grid-template-columns: 1fr 200px 200px 240px;
+}
+
+.footer-links-container img {
+  width: 5rem;
+}
+
+.footer-links-container ul {
+  list-style: none;
+}
+
+.footer-links-container li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8rem;
+}
+
+footer hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copywright span p {
+  color: rgba(250, 250, 250, 0.5);
+  font-size: 0.8rem;
+  line-height: 17px;
+}
+/* Footer section ends */
+
+/* Mobile footer section */
+.mobile-footer {
+  display: none;
+}
+
+
+/************************Responsive Designs*******************/
+
+/* Media Queries for small screen phones */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  /* Navbar section styles */
+  .navbar {
+    padding: 0 2rem;
+  }
+
+  /* Hero section styles */
+  .hero-section {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0 0 1rem;
+  }
+
+  .hero-writeup {
+    width: 100%;
+  }
+
+  .hero-writeup span h1 {
+    font-size: 1.7rem;
+    width: 80%;
+    line-height: 38px;
+  }
+
+  .hero-writeup span p {
+    width: 80%;
+  }
+
+  .hero-btn {
+    padding: 0.7rem 2.2rem;
+    font-size: 0.9rem;
+    margin-top: 0.7rem;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img-container .star-img {
+    display: none;
+  }
+
+  .img-container .star-mobile {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20rem;
+    z-index: -1;
+  }
+
+  /* News section styles */
+  .news-section {
+    padding: 5rem 1rem;
+  }
+
+  .news-section span h6 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .news-div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .news-1 {
+    gap: 0.5rem;
+  }
+
+  .news-1 img {
+    padding: 0 0;
+  }
+
+  .news-2 img {
+    padding: 0 0;
+  }
+
+  .week-img {
+    width: 4rem;
+    height: auto;
+  }
+
+  /* Test section styles */
+  .test-section {
+    padding: 2rem 1rem;
+  }
+
+  .test-div {
+    background: #F7F7FE;
+    border-radius: 24px;
+    padding: 2rem 1rem 1rem 1.5rem;
+  }
+
+  .test-div h3 {
+    font-size: 1rem;
+    width: 80%;
+  }
+
+  .test-div p {
+    font-size: 0.8rem;
+    width: 80%;
+    line-height: 22px;
+  }
+
+  .core-img {
+    width: 1rem;
+    height: 1rem;
+    margin-left: -1rem;
+  }
+
+  .cross-img {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+
+  /* chart section styles */
+  .chart-section {
+    padding: 2rem 1rem;
+  }
+
+  .chart-div {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0 2rem 1.5rem;
+  }
+
+  .chart-writeup {
+    width: 100%;
+  }
+
+  .chart-writeup span h2 {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 28px;
+  }
+
+  .chart-writeup p {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+
+  .chart-btn {
+    padding: 0.7rem 2.5rem;
+  }
+
+  .chart-img {
+    width: 100%;
+  }
+
+  .chart-img .chart {
+    display: none;
+  }
+
+  .chart-img .chart-mobile {
+    display: flex;
+  }
+
+  .chart-img img {
+    border-radius: 0;
+  }
+
+  .track-div {
+    flex-direction: column-reverse;
+    padding: 2rem 1rem 2rem 1.5rem;
+    gap: 3rem;
+  }
+
+  .track-writeup {
+    width: 100%;
+  }
+
+  .track-writeup span h2 {
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 28px;
+  }
+
+  .track-writeup p {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .track-writeup li a {
+    font-size: 0.9rem;
+  }
+
+  .track-img {
+    width: 100%;
+  }
+
+  .track-img img {
+    width: 100%;
+  }
+
+  /* Measure section styles */
+  .measure-section {
+    padding: 4rem 1rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .conception span h3 {
+    width: 95%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .progesterone {
+    padding: 2rem 1.5rem 2rem 1rem;
+  }
+
+  .progesterone span h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .progesterone p {
+    font-size: 0.8rem;
+  }
+
+  .progesterone .fill-img {
+    width: 11rem;
+  }
+
+  /* Unique section styles */
+  .unique-section {
+    padding: 3rem 1rem;
+  }
+
+  .unique-section span h3 {
+    font-size: 1.1rem;
+    width: 70%;
+  }
+
+  .unique-div {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin-top: 2.8rem;
+  }
+
+  .unique-writeup h3 {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .unique-writeup div img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: -0.6rem 0 0 -2.2rem;
+  }
+
+  .unique-writeup span p {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .unique-writeup span p br {
+    content: "";
+  }
+
+  .unique-writeup span p br:after {
+    content: " ";
+  }
+
+  .unique-btn {
+    padding: 0.7rem 2.2rem;
+  }
+
+  /* Ovulation section styles */
+  .ovulation-section {
+    padding: 3rem 1rem;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .ovulation-div {
+    width: 100%;
+  }
+
+  .ovulation-div span h3 {
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .core {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: -0.5rem 0 0 0;
+  }
+
+  .ovulation-div span p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .ovulation-div span h6 {
+    font-size: 0.9rem;
+  }
+
+  .ovulation-div li {
+    font-size: 0.8rem;
+  }
+
+  .ovulation-img {
+    width: 100%;
+  }
+
+  /* Hormones section styles */
+  .hormones-section {
+    padding: 2rem 1rem;
+  }
+
+  .hormones-div {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-top: 1rem;
+  }
+
+  .hormones-writeup h3 {
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .hormones-writeup div img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: -1.5rem 0 0 -0.8rem;
+  }
+
+  .hormones-writeup span p br {
+    content: "";
+  }
+
+  .hormones-writeup span p br:after {
+    content: " ";
+  }
+
+  .hormones-writeup span p {
+    font-size: 0.8rem;
+  }
+
+  .hormones-btn {
+    padding: 0.7rem 2rem;
+  }
+
+  /* Fertility section styles */
+  .fertility-section {
+    padding: 5rem 1rem 4rem 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .fertility-writeup span h3 {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .fertility-writeup h6 {
+    font-size: 0.7rem;
+    line-height: 16px;
+  }
+
+  .fertility-btn {
+    padding: 0.7rem 2rem;
+  }
+
+  .fertility-div {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+  }
+
+  .fertility-div div img:hover {
+    transform: none;
+  }
+
+  /* Monitor section styles */
+  .monitor-section {
+    padding: 4rem 1rem;
+  }
+  .monitor-div {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    padding: 2rem 1.5rem 0.2rem 2rem;
+  }
+
+  .monitor-div .fill {
+    width: 11rem;
+  }
+
+  .monitor-div .dots-img {
+    top: -3.5rem;
+    right: 0;
+    width: 6.5rem;
+    z-index: -1;
+  }
+
+  .monitor-div .star {
+    font-size: 0.8rem;
+  }
+
+  .monitor-writeup span h5 {
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin-bottom: 1rem;
+  }
+
+   .monitor-writeup span h6 br {
+    content: "";
+  }
+
+  .monitor-writeup span h6 br:after {
+    content: " ";
+  }
+
+  .monitor-writeup span h6 {
+    font-size: 0.8rem;
+  }
+
+  /* Question section styles */
+  .question-section {
+    padding: 6rem 1rem 3rem 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .question-section span h3 {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  .question-section img {
+    width: 1rem;
+    height: 1rem;
+    margin: -0.9rem 0 0 1rem;
+  }
+
+  .question-container {
+    margin-top: 1.5rem;
+  }
+
+  .question-container div span h5 {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+
+  /* footer */
+  footer {
+    display: none;
+  }
+
+  /* Mobile footer section styles */
+  .mobile-footer {
+    background: #112D35;
+    padding: 2rem 1rem 1rem 1rem;
+    display: block;
+  }
+
+  .mobile-footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-footer .guaranty-div img {
+    width: 2.4rem;
+  }
+
+  .mobile-footer .guaranty-div h6 {
+    font-size: 0.8rem;
+    color: #fff;
+    width: 70%;
+  }
+
+  .mobile-footer .logo-div img {
+    width: 5rem;
+  }
+
+  .mobile-footer .card,
+  .mobile-footer .support,
+  .mobile-footer .touch {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+  }
+
+  .card.active,
+  .support.active,
+  .touch.active {
+    height: 10rem;
+  }
+
+  .card .content h5,
+  .support .info h5,
+  .touch .option h5 {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .navigation {
+    position: relative;
+    padding: 0.3rem 0;
+  }
+
+  .navigation li {
+    list-style: none;
+    margin: 0.2rem 0.5rem;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.7rem;
+  }
+
+  .toggle,
+  .sample,
+  .iconic {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .toggle .drop-down-icon,
+  .sample .drop-down-icon,
+  .iconic .drop-down-icon {
+    font-size: 1.1rem;
+    color: #fff;
+    transition: transform ease-in-out 0.5s;
+  }
+
+  .card.active .toggle .drop-down-icon,
+  .support.active .sample .drop-down-icon,
+  .touch.active .iconic .drop-down-icon {
+    transform: rotate(180deg);
+  }
+
+  .mobile-footer-info p {
+    font-size: 0.7rem;
+    color: rgba(250, 250, 250, 0.5);
+  }
+}
+
+/* For large mobile screens */
+
+@media screen and (min-width: 481px) and (max-width: 576px) {
+  /* Navbar section styles */
+  .navbar {
+    padding: 0 2rem;
+  }
+
+  /* Hero section styles */
+  .hero-section {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0 0 1rem;
+  }
+
+  .hero-writeup {
+    width: 100%;
+  }
+
+  .hero-writeup span h1 {
+    font-size: 1.7rem;
+    width: 90%;
+    line-height: 38px;
+  }
+
+  .hero-writeup span p {
+    width: 90%;
+  }
+
+  .hero-btn {
+    padding: 0.6rem 2.5rem;
+    font-size: 0.9rem;
+    margin-top: 0.7rem;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img-container .star-img {
+    display: none;
+  }
+
+  .img-container .star-mobile {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 27rem;
+    z-index: -1;
+  }
+
+  /* News section styles */
+  .news-section {
+    padding: 5rem 2rem;
+  }
+
+  .news-section span h6 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .news-div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .news-1 {
+    gap: 0.5rem;
+  }
+
+  .news-1 img {
+    padding: 0 1rem;
+  }
+
+  .news-2 img {
+    padding: 0 1rem;
+  }
+
+  /* Test section styles */
+  .test-section {
+    padding: 2rem 1rem;
+  }
+
+  .test-div {
+    background: #F7F7FE;
+    border-radius: 24px;
+    padding: 2rem 1rem 1rem 1.5rem;
+  }
+
+  .test-div h3 {
+    font-size: 1rem;
+    width: 80%;
+  }
+
+  .test-div p {
+    font-size: 0.8rem;
+    width: 90%;
+    line-height: 22px;
+  }
+
+  .test-div p br {
+    content: "";
+  }
+
+  .unique-writeup span p br:after {
+    content: " ";
+  }
+
+  .core-img {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0;
+  }
+
+  .cross-img {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-left: -6rem;
+  }
+
+  /* chart section styles */
+  .chart-section {
+    padding: 2rem 1rem;
+  }
+
+  .chart-div {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0 2rem 1.5rem;
+  }
+
+  .chart-writeup {
+    width: 100%;
+  }
+
+  .chart-writeup span h2 {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 28px;
+  }
+
+  .chart-writeup p {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+
+  .chart-btn {
+    padding: 0.7rem 2.5rem;
+  }
+
+  .chart-img {
+    width: 100%;
+  }
+
+  .chart-img .chart {
+    display: none;
+  }
+
+  .chart-img .chart-mobile {
+    display: flex;
+  }
+
+  .chart-img img {
+    border-radius: 0;
+  }
+
+  .track-div {
+    flex-direction: column-reverse;
+    padding: 2rem 1rem 2rem 1.5rem;
+    gap: 3rem;
+  }
+
+  .track-writeup {
+    width: 100%;
+  }
+
+  .track-writeup span h2 {
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 28px;
+  }
+
+  .track-writeup p {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .track-writeup li a {
+    font-size: 0.9rem;
+  }
+
+  .track-img {
+    width: 100%;
+  }
+
+  .track-img img {
+    width: 100%;
+  }
+
+  /* Measure section styles */
+  .measure-section {
+    padding: 4rem 1rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .conception span h3 {
+    width: 95%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .progesterone {
+    padding: 2rem 1.5rem 2rem 1rem;
+  }
+
+  .progesterone span h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .progesterone p {
+    font-size: 0.8rem;
+  }
+
+  .progesterone .fill-img {
+    width: 11rem;
+  }
+
+  /* Unique section styles */
+  .unique-section {
+    padding: 3rem 1rem;
+  }
+
+  .unique-section span h3 {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  .unique-div {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin-top: 2.8rem;
+  }
+
+  .unique-writeup h3 {
+    font-size: 1.1rem;
+    width: 85%;
+    line-height: 25px;
+  }
+
+  .unique-writeup div img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: -0.6rem 0 0 -2.2rem;
+  }
+
+  .unique-writeup span p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .unique-writeup span p br {
+    content: "";
+  }
+
+  .unique-writeup span p br:after {
+    content: " ";
+  }
+
+  .unique-btn {
+    padding: 0.7rem 2.2rem;
+  }
+
+  /* Ovulation section styles */
+  .ovulation-section {
+    padding: 3rem 1rem;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .ovulation-div {
+    width: 100%;
+  }
+
+  .ovulation-div span h3 {
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .core {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: -0.5rem 0 0 0;
+  }
+
+  .ovulation-div span p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .ovulation-div span h6 {
+    font-size: 0.9rem;
+  }
+
+  .ovulation-div li {
+    font-size: 0.8rem;
+  }
+
+  .ovulation-img {
+    width: 100%;
+  }
+
+  /* Hormones section styles */
+  .hormones-section {
+    padding: 2rem 1rem;
+  }
+
+  .hormones-div {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-top: 1rem;
+  }
+
+  .hormones-writeup h3 {
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .hormones-writeup div img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: -1.5rem 0 0 -0.8rem;
+  }
+
+  .hormones-writeup span p br {
+    content: "";
+  }
+
+  .hormones-writeup span p br:after {
+    content: " ";
+  }
+
+  .hormones-writeup span p {
+    font-size: 0.8rem;
+  }
+
+  .hormones-btn {
+    padding: 0.7rem 2rem;
+  }
+
+  /* Fertility section styles */
+  .fertility-section {
+    padding: 5rem 1rem 4rem 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .fertility-writeup span h3 {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .fertility-writeup h6 {
+    font-size: 0.7rem;
+    line-height: 16px;
+  }
+
+  .fertility-btn {
+    padding: 0.7rem 2rem;
+  }
+
+  .fertility-div {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+  }
+
+  .fertility-div div img:hover {
+    transform: none;
+  }
+
+  .fertility-div span p {
+    font-size: 0.9rem;
+  }
+
+  /* Monitor section styles */
+  .monitor-section {
+    padding: 4rem 1rem;
+  }
+
+  .monitor-div {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    padding: 2rem 1.5rem 0.2rem 2rem;
+  }
+
+  .monitor-div .fill {
+    width: 11rem;
+  }
+
+  .monitor-div .dots-img {
+    top: -3.5rem;
+    right: 0;
+    width: 6.5rem;
+    z-index: -1;
+  }
+
+  .monitor-div .star {
+    font-size: 0.8rem;
+  }
+
+  .monitor-writeup span h5 {
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin-bottom: 1rem;
+  }
+
+   .monitor-writeup span h6 br {
+    content: "";
+  }
+
+  .monitor-writeup span h6 br:after {
+    content: " ";
+  }
+
+  .monitor-writeup span h6 {
+    font-size: 0.8rem;
+  }
+
+  /* Question section styles */
+  .question-section {
+    padding: 6rem 1rem 3rem 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .question-section span h3 {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  .question-section img {
+    width: 1rem;
+    height: 1rem;
+    margin: -0.9rem 0 0 1rem;
+  }
+
+  .question-container {
+    margin-top: 1.5rem;
+  }
+
+  .question-container div span h5 {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+
+  .question-container span p {
+    width: 90%;
+  }
+
+  .question-container span p br {
+    content: "";
+  }
+
+  .question-container span p br:after {
+    content: " ";
+  }
+
+  /* footer */
+  footer {
+    display: none;
+  }
+
+   /* Mobile footer section styles */
+  .mobile-footer {
+    background: #112D35;
+    padding: 2rem 1rem 1rem 1rem;
+    display: block;
+  }
+
+  .mobile-footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-footer .guaranty-div img {
+    width: 2.4rem;
+  }
+
+  .mobile-footer .guaranty-div h6 {
+    font-size: 0.8rem;
+    color: #fff;
+    width: 70%;
+  }
+
+  .mobile-footer .logo-div img {
+    width: 5rem;
+  }
+
+  .mobile-footer .card,
+  .mobile-footer .support,
+  .mobile-footer .touch {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+  }
+
+  .card.active,
+  .support.active,
+  .touch.active {
+    height: 10rem;
+  }
+
+  .card .content h5,
+  .support .info h5,
+  .touch .option h5 {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .navigation {
+    position: relative;
+    padding: 0.3rem 0;
+  }
+
+  .navigation li {
+    list-style: none;
+    margin: 0.2rem 0.5rem;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.7rem;
+  }
+
+  .toggle,
+  .sample,
+  .iconic {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .toggle .drop-down-icon,
+  .sample .drop-down-icon,
+  .iconic .drop-down-icon {
+    font-size: 1.1rem;
+    color: #fff;
+    transition: transform ease-in-out 0.5s;
+  }
+
+  .card.active .toggle .drop-down-icon,
+  .support.active .sample .drop-down-icon,
+  .touch.active .iconic .drop-down-icon {
+    transform: rotate(180deg);
+  }
+
+  .mobile-footer-info p {
+    font-size: 0.7rem;
+    color: rgba(250, 250, 250, 0.5);
+  }
+}
+
+/* Responsive designs for ipad */
+
+/* For small ipad screens */
+@media screen and (min-width: 577px) and (max-width: 700px) {
+  /* Navbar section styles */
+  .navbar {
+    padding: 0 7rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0 0 2rem;
+  }
+
+  .hero-writeup {
+    width: 100%;
+  }
+
+  .hero-writeup span h1 {
+    font-size: 1.8rem;
+    width: 80%;
+    line-height: 38px;
+  }
+
+  .hero-writeup span p {
+    width: 80%;
+  }
+
+  .hero-btn {
+    padding: 0.6rem 2.7rem;
+    font-size: 0.9rem;
+    margin-top: 0.7rem;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img-container .star-img {
+    display: none;
+  }
+
+  .img-container .star-mobile {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 27rem;
+    z-index: -1;
+  }
+
+   /* News section styles */
+  .news-section {
+    padding: 5rem 2rem;
+  }
+
+  .news-section span h6 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .news-div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .news-1 {
+    gap: 0.5rem;
+  }
+
+  .news-1 img {
+    padding: 0 1rem;
+  }
+
+  .news-2 img {
+    padding: 0 1rem;
+  }
+
+   /* Test section styles */
+   .test-section {
+    padding: 4rem 2rem;
+  }
+
+  .test-div {
+    background: #F7F7FE;
+    border-radius: 24px;
+    padding: 2rem 1rem 1rem 1.5rem;
+    text-align: center;
+  }
+
+  .test-div h3 {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .test-div p {
+    font-size: 0.8rem;
+    width: 90%;
+    line-height: 22px;
+  }
+
+  .test-div p br {
+    content: "";
+  }
+
+  .test-div span p br:after {
+    content: " ";
+  }
+
+  .core-img {
+    display: none;
+  }
+
+  .cross-img {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-left: -6.5rem;
+  }
+
+  /* chart section styles */
+  .chart-section {
+    padding: 2rem 1rem;
+  }
+
+  .chart-div {
+    gap: 1rem;
+    padding: 2rem 0 2rem 1.5rem;
+  }
+
+  .chart-writeup {
+    width: 50%;
+  }
+
+  .chart-writeup span h2 {
+    width: 90%;
+    font-size: 1rem;
+    line-height: 23px;
+  }
+
+  .chart-writeup p {
+    width: 80%;
+    font-size: 0.8rem;
+  }
+
+  .chart-btn {
+    padding: 0.5rem 2rem;
+  }
+
+  .chart-img {
+    width: 40%;
+  }
+
+  .chart-img .chart {
+    display: none;
+  }
+
+  .chart-img .chart-mobile {
+    display: flex;
+  }
+
+  .chart-img img {
+    border-radius: 0;
+  }
+
+  .track-div {
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 2rem 0 2rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .track-writeup {
+    width: 50%;
+  }
+
+  .track-writeup span h2 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .track-writeup p {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .track-writeup li a {
+    font-size: 0.8rem;
+  }
+
+  .track-img {
+    width: 40%;
+  }
+
+  .track-img img {
+    width: 100%;
+  }
+
+  /* Measure section styles */
+  .measure-section {
+    padding: 5rem 2rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .conception span h3 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .progesterone {
+    padding: 2rem 1.5rem 2rem 1rem;
+  }
+
+  .progesterone span h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .progesterone p {
+    font-size: 0.8rem;
+  }
+
+  .progesterone .fill-img {
+    width: 11rem;
+  }
+
+  /* Unique section styles */
+  .unique-section {
+    padding: 3rem 2rem;
+  }
+
+  .unique-section span h3 {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  .unique-div {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .unique-writeup h3 {
+    font-size: 1.1rem;
+    width: 80%;
+    line-height: 25px;
+  }
+
+  .unique-writeup div img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: -0.6rem 0 0 -0.8rem;
+  }
+
+  .unique-writeup span p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .unique-writeup span p br {
+    content: "";
+  }
+
+  .unique-writeup span p br:after {
+    content: " ";
+  }
+
+  .unique-btn {
+    padding: 0.5rem 2rem;
+  }
+
+  /* Ovulation section styles */
+  .ovulation-section {
+    padding: 5rem 2rem;
+    justify-content: space-between;
+  }
+
+  .ovulation-div {
+    width: 50%;
+  }
+
+  .ovulation-div span h3 {
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .core {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: -0.5rem 0 0 0;
+  }
+
+  .ovulation-div span p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .ovulation-div span h6 {
+    font-size: 0.9rem;
+  }
+
+  .ovulation-div li {
+    font-size: 0.8rem;
+  }
+
+  .ovulation-img {
+    width: 50%;
+  }
+
+  /* Hormones section styles */
+  .hormones-section {
+    padding: 4rem 2rem;
+  }
+
+  .hormones-div {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  .hormones-writeup h3 {
+    width: 90%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .hormones-writeup div img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: -1.5rem 0 0 -0.8rem;
+  }
+
+  .hormones-writeup span p {
+    font-size: 0.8rem;
+  }
+
+  .hormones-writeup span p br {
+    content: "";
+  }
+
+  .hormones-writeup span p br:after {
+    content: " ";
+  }
+
+
+  .hormones-btn {
+    padding: 0.6rem 2rem;
+  }
+
+  /* Fertility section styles */
+  .fertility-section {
+    padding: 6rem 2rem 2rem 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .fertility-writeup {
+    text-align: center;
+  }
+
+  .fertility-writeup span h3 {
+    font-size: 1.3rem;
+    width: 100%;
+    line-height: 25px;
+  }
+
+  .fertility-writeup h6 {
+    font-size: 0.7rem;
+    line-height: 16px;
+  }
+
+  .fertility-btn {
+    padding: 0.6rem 2.5rem;
+  }
+
+  .fertility-div {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+  }
+
+  .fertility-div span p {
+    font-size: 0.8rem;
+  }
+
+  /* Monitor section styles */
+  .monitor-section {
+    padding: 8rem 2rem 2rem 2rem;
+  }
+  .monitor-div {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    padding: 2rem 1.5rem 0.2rem 2rem;
+  }
+
+  .monitor-div .fill {
+    width: 11rem;
+  }
+
+  .monitor-div .dots-img {
+    top: -3.5rem;
+    right: 0;
+    width: 6.5rem;
+    z-index: -1;
+  }
+
+  .monitor-div .star {
+    font-size: 0.8rem;
+  }
+
+  .monitor-writeup span h5 {
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin-bottom: 1rem;
+  }
+
+   .monitor-writeup span h6 br {
+    content: "";
+  }
+
+  .monitor-writeup span h6 br:after {
+    content: " ";
+  }
+
+  .monitor-writeup span h6 {
+    font-size: 0.8rem;
+  }
+
+  /* Question section styles */
+  .question-section {
+    padding: 5rem 2rem 3rem 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .question-section span h3 {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  .question-section img {
+    width: 1rem;
+    height: 1rem;
+    margin: -0.9rem 0 0 1rem;
+  }
+
+  .question-container {
+    margin-top: 1.5rem;
+  }
+
+  .question-container div span h5 {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+
+  .question-container span p {
+    width: 90%;
+  }
+
+  .question-container span p br {
+    content: "";
+  }
+
+  .question-container span p br:after {
+    content: " ";
+  }
+
+   /* footer */
+   footer {
+    display: none;
+  }
+
+   /* Mobile footer section styles */
+  .mobile-footer {
+    background: #112D35;
+    padding: 2rem 1rem 1rem 1rem;
+    display: block;
+  }
+
+  .mobile-footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-footer .guaranty-div img {
+    width: 2.4rem;
+  }
+
+  .mobile-footer .guaranty-div h6 {
+    font-size: 0.8rem;
+    color: #fff;
+    width: 70%;
+  }
+
+  .mobile-footer .logo-div img {
+    width: 5rem;
+  }
+
+  .mobile-footer .card,
+  .mobile-footer .support,
+  .mobile-footer .touch {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+  }
+
+  .card.active,
+  .support.active,
+  .touch.active {
+    height: 10rem;
+  }
+
+  .card .content h5,
+  .support .info h5,
+  .touch .option h5 {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .navigation {
+    position: relative;
+    padding: 0.3rem 0;
+  }
+
+  .navigation li {
+    list-style: none;
+    margin: 0.2rem 0.5rem;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.7rem;
+  }
+
+  .toggle,
+  .sample,
+  .iconic {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .toggle .drop-down-icon,
+  .sample .drop-down-icon,
+  .iconic .drop-down-icon {
+    font-size: 1.1rem;
+    color: #fff;
+    transition: transform ease-in-out 0.5s;
+  }
+
+  .card.active .toggle .drop-down-icon,
+  .support.active .sample .drop-down-icon,
+  .touch.active .iconic .drop-down-icon {
+    transform: rotate(180deg);
+  }
+
+  .mobile-footer-info p {
+    font-size: 0.7rem;
+    color: rgba(250, 250, 250, 0.5);
+  }
+}
+
+/* For large ipad screens */
+@media screen and (min-width: 701px) and (max-width: 860px) {
+  /* Navbar section styles */
+  .navbar {
+    padding: 0 2rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0 0 2rem;
+  }
+
+  .hero-writeup {
+    width: 100%;
+  }
+
+  .hero-writeup span h1 {
+    font-size: 2rem;
+    width: 85%;
+    line-height: 38px;
+  }
+
+  .hero-writeup span p {
+    width: 80%;
+  }
+
+  .hero-btn {
+    padding: 0.6rem 2.7rem;
+    font-size: 0.9rem;
+    margin-top: 0.7rem;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img-container .star-img {
+    display: none;
+  }
+
+  .img-container .star-mobile {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 35rem;
+    z-index: -1;
+  }
+
+  /* News section styles */
+  .news-section {
+    padding: 5rem 3rem;
+  }
+
+  .news-section span h6 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .news-div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .news-1 {
+    gap: 0.5rem;
+  }
+
+  .news-1 img {
+    padding: 0 1.5rem;
+  }
+
+  .news-2 img {
+    padding: 0 1.5rem;
+  }
+
+  /* Test section styles */
+  .test-section {
+    padding: 1rem 3rem;
+  }
+
+  .test-div {
+    background: #F7F7FE;
+    border-radius: 24px;
+    padding: 2rem 1rem 1rem 1.5rem;
+    text-align: center;
+  }
+
+  .test-div div {
+    position: relative;
+  }
+
+  .test-div h3 {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .test-div p {
+    font-size: 0.8rem;
+    width: 90%;
+    line-height: 22px;
+  }
+
+  .test-div p br {
+    content: "";
+  }
+
+  .unique-writeup span p br:after {
+    content: " ";
+  }
+
+  .core-img {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    right: 4.5rem;
+  }
+
+  .cross-img {
+    width: 1.1rem;
+    height: 1.1rem;
+    position: absolute;
+    right: 8.5rem;
+  }
+
+  /* chart section styles */
+  .chart-section {
+    padding: 5rem 3rem;
+  }
+  .chart-div {
+    gap: 1rem;
+    padding: 2rem 0 2rem 1.5rem;
+  }
+
+  .chart-writeup {
+    width: 50%;
+  }
+
+  .chart-writeup span h2 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 23px;
+  }
+
+  .chart-writeup p {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .chart-btn {
+    padding: 0.5rem 2rem;
+  }
+
+  .chart-img {
+    width: 40%;
+  }
+
+  .chart-img .chart {
+    display: none;
+  }
+
+  .chart-img .chart-mobile {
+    display: flex;
+  }
+
+  .chart-img img {
+    border-radius: 0;
+  }
+
+  .track-div {
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 2rem 0 2rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .track-writeup {
+    width: 50%;
+  }
+
+  .track-writeup span h2 {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .track-writeup p {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .track-writeup li a {
+    font-size: 0.8rem;
+  }
+
+  .track-img {
+    width: 40%;
+  }
+
+  .track-img img {
+    width: 100%;
+  }
+
+  /* Measure section styles */
+  .measure-section {
+    padding: 4rem 3rem;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .conception span h3 {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .doctor img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .doctor h4 {
+    font-size: 0.9rem;
+  }
+
+  .progesterone {
+    padding: 2rem 1.5rem 2rem 1rem;
+  }
+
+  .progesterone span h3 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .progesterone p {
+    font-size: 0.8rem;
+  }
+
+  .progesterone .fill-img {
+    width: 11rem;
+  }
+
+  /* Unique section styles */
+  .unique-section {
+    padding: 2rem;
+  }
+
+  .unique-section span h3 {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .unique-div {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .unique-writeup h3 {
+    font-size: 1.1rem;
+    width: 90%;
+    line-height: 25px;
+  }
+
+  .unique-writeup div img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: -0.6rem 0 0 0.4rem;
+  }
+
+  .unique-writeup span p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .unique-writeup span p br {
+    content: "";
+  }
+
+  .unique-writeup span p br:after {
+    content: " ";
+  }
+
+  .unique-btn {
+    padding: 0.5rem 2rem;
+  }
+
+   /* Ovulation section styles */
+   .ovulation-section {
+    padding: 5rem 3rem;
+    gap: 2rem;
+  }
+
+  .ovulation-div {
+    width: 50%;
+  }
+
+  .ovulation-div span h3 {
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
+
+  .core {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: -0.5rem 0 0 0;
+  }
+
+  .ovulation-div span p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .ovulation-div span h6 {
+    font-size: 0.9rem;
+  }
+
+  .ovulation-div li {
+    font-size: 0.8rem;
+  }
+
+  .ovulation-img {
+    width: 50%;
+  }
+
+  /* Hormones section styles */
+  .hormones-section {
+    padding: 4rem 2rem;
+  }
+
+  .hormones-div {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 1rem;
+  }
+
+  .hormones-writeup h3 {
+    width: 90%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .hormones-writeup div img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: -1.5rem 0 0 -0.3rem;
+  }
+
+  .hormones-writeup span p {
+    font-size: 0.8rem;
+  }
+
+  .hormones-writeup span p br {
+    content: "";
+  }
+
+  .hormones-writeup span p br:after {
+    content: " ";
+  }
+
+
+  .hormones-btn {
+    padding: 0.6rem 2rem;
+  }
+
+  /* Fertility section styles */
+  .fertility-section {
+    padding: 6rem 3rem 2rem 3rem;
+    grid-template-columns: 1fr;
+  }
+
+  .fertility-writeup {
+    text-align: center;
+  }
+
+  .fertility-writeup span h3 {
+    font-size: 1.4rem;
+    width: 100%;
+    line-height: 25px;
+  }
+
+  .fertility-writeup h6 {
+    font-size: 0.7rem;
+    line-height: 16px;
+  }
+
+  .fertility-btn {
+    padding: 0.6rem 2.5rem;
+  }
+
+  .fertility-div {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+  }
+
+  .fertility-div span p {
+    font-size: 0.9rem;
+  }
+
+   /* Monitor section styles */
+   .monitor-section {
+    padding: 8rem 2rem 2rem 2rem;
+  }
+  .monitor-div {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    padding: 2rem 1.5rem 0.2rem 2rem;
+  }
+
+  .monitor-div .fill {
+    width: 11rem;
+  }
+
+  .monitor-div .dots-img {
+    top: -3.5rem;
+    right: 0;
+    width: 6.5rem;
+    z-index: -1;
+  }
+
+  .monitor-div .star {
+    font-size: 0.9rem;
+  }
+
+  .monitor-writeup span h5 {
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin-bottom: 1rem;
+  }
+
+   .monitor-writeup span h6 br {
+    content: "";
+  }
+
+  .monitor-writeup span h6 br:after {
+    content: " ";
+  }
+
+  .monitor-writeup span h6 {
+    font-size: 0.8rem;
+  }
+
+  /* Question section styles */
+  .question-section {
+    padding: 5rem 2rem 3rem 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .question-section span h3 {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .question-section img {
+    width: 1rem;
+    height: 1rem;
+    margin: -0.9rem 0 0 1rem;
+  }
+
+  .question-container {
+    margin-top: 1.5rem;
+  }
+
+  .question-container div span h5 {
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  .question-container span p {
+    width: 70%;
+  }
+
+  .question-container span p br {
+    content: "";
+  }
+
+  .question-container span p br:after {
+    content: " ";
+  }
+
+  /* footer */
+  footer {
+    display: none;
+  }
+
+   /* Mobile footer section styles */
+  .mobile-footer {
+    background: #112D35;
+    padding: 2rem 1rem 1rem 1rem;
+    display: block;
+  }
+
+  .mobile-footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-footer .guaranty-div img {
+    width: 2.4rem;
+  }
+
+  .mobile-footer .guaranty-div h6 {
+    font-size: 0.8rem;
+    color: #fff;
+    width: 70%;
+  }
+
+  .mobile-footer .logo-div img {
+    width: 5rem;
+  }
+
+  .mobile-footer .card,
+  .mobile-footer .support,
+  .mobile-footer .touch {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+  }
+
+  .card.active,
+  .support.active,
+  .touch.active {
+    height: 10rem;
+  }
+
+  .card .content h5,
+  .support .info h5,
+  .touch .option h5 {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .navigation {
+    position: relative;
+    padding: 0.3rem 0;
+  }
+
+  .navigation li {
+    list-style: none;
+    margin: 0.2rem 0.5rem;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.7rem;
+  }
+
+  .toggle,
+  .sample,
+  .iconic {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .toggle .drop-down-icon,
+  .sample .drop-down-icon,
+  .iconic .drop-down-icon {
+    font-size: 1.1rem;
+    color: #fff;
+    transition: transform ease-in-out 0.5s;
+  }
+
+  .card.active .toggle .drop-down-icon,
+  .support.active .sample .drop-down-icon,
+  .touch.active .iconic .drop-down-icon {
+    transform: rotate(180deg);
+  }
+
+  .mobile-footer-info p {
+    font-size: 0.7rem;
+    color: rgba(250, 250, 250, 0.5);
+  }
+}  
+
+
+/*For largest ipad screens */
+@media screen and (min-width: 861px) and (max-width: 960px) {
+  /* Navbar section styles */
+  .navbar {
+    padding: 0 2rem;
+  }
+
+  /* Hero section styles */
+   .hero-section {
+    padding: 2rem 0 0 2rem;
+  }
+
+  .hero-writeup {
+    width: 50%;
+  }
+
+  .hero-writeup span h1 {
+    font-size: 2rem;
+    width: 100%;
+    line-height: 38px;
+  }
+
+  .hero-writeup h1 span {
+    border: none;
+  }
+
+  .hero-writeup span p {
+    width: 90%;
+  }
+
+  .hero-btn {
+    padding: 0.6rem 2.7rem;
+    font-size: 0.9rem;
+    margin-top: 0.7rem;
+  }
+
+  .img-container {
+    width: 50%;
+  }
+
+  .img-container .star-img {
+    display: none;
+  }
+
+  .img-container .star-mobile {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20rem;
+    z-index: -1;
+  }
+
+  /* News section styles */
+  .news-section {
+    padding: 3rem 2rem;
+  }
+
+  .news-section span h6 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .news-div {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .news-1 {
+    gap: 0.5rem;
+  }
+
+  .news-1 img {
+    padding: 0 2rem;
+  }
+
+  .news-2 img {
+    padding: 0 2rem;
+  }
+
+  /* Test section styles */
+  .test-section {
+    padding: 0 3rem;
+  }
+
+  .test-div {
+    background: #F7F7FE;
+    border-radius: 24px;
+    padding: 2rem 1rem 1rem 1.5rem;
+    text-align: center;
+  }
+
+  .test-div div {
+    position: relative;
+  }
+
+  .test-div h3 {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .test-div p {
+    font-size: 0.8rem;
+    width: 90%;
+    line-height: 22px;
+  }
+
+  .test-div p br {
+    content: "";
+  }
+
+  .unique-writeup span p br:after {
+    content: " ";
+  }
+
+  .core-img {
+    width: 1.1rem;
+    height: 1.1rem;
+    position: absolute;
+    right: 4.5rem;
+  }
+
+  .cross-img {
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    right: 8.5rem;
+  }
+
+  /* chart section styles */
+  .chart-div {
+    gap: 1rem;
+    padding: 2rem 0 2rem 1.5rem;
+  }
+
+  .chart-writeup {
+    width: 50%;
+  }
+
+  .chart-writeup span h2 {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 23px;
+  }
+
+  .chart-writeup p {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .chart-btn {
+    padding: 0.5rem 2rem;
+  }
+
+  .chart-img {
+    width: 40%;
+  }
+
+  .chart-img .chart {
+    display: none;
+  }
+
+  .chart-img .chart-mobile {
+    display: flex;
+  }
+
+  .chart-img img {
+    border-radius: 0;
+  }
+
+  .track-div {
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 2rem 0 2rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .track-writeup {
+    width: 50%;
+  }
+
+  .track-writeup span h2 {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .track-writeup p {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .track-writeup li a {
+    font-size: 0.8rem;
+  }
+
+  .track-img {
+    width: 40%;
+  }
+
+  .track-img img {
+    width: 100%;
+  }
+
+  /* Measure section styles */
+  .measure-section {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .conception span h3 {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
+
+  .doctor img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .doctor h4 {
+    font-size: 0.9rem;
+  }
+
+  .progesterone {
+    padding: 2rem 1.5rem 2rem 1rem;
+  }
+
+  .progesterone span h3 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .progesterone p {
+    font-size: 0.8rem;
+  }
+
+  .progesterone .fill-img {
+    width: 12rem;
+  }
+
+   /* Unique section styles */
+  .unique-section span h3 {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .unique-div {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .unique-writeup h3 {
+    font-size: 1.1rem;
+    width: 90%;
+    line-height: 25px;
+  }
+
+  .unique-writeup div img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: -0.6rem 0 0 0.4rem;
+  }
+
+  .unique-writeup span p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .unique-writeup span p br {
+    content: "";
+  }
+
+  .unique-writeup span p br:after {
+    content: " ";
+  }
+
+  .unique-btn {
+    padding: 0.5rem 2rem;
+  }
+
+   /* Ovulation section styles */
+   .ovulation-section {
+    padding: 5rem 3rem;
+    gap: 2rem;
+  }
+
+  .ovulation-div {
+    width: 50%;
+  }
+
+  .ovulation-div span h3 {
+    width: 80%;
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+
+  .core {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: -0.5rem 0 0 0;
+  }
+
+  .ovulation-div span p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .ovulation-div span h6 {
+    font-size: 0.9rem;
+  }
+
+  .ovulation-div li {
+    font-size: 0.8rem;
+  }
+
+  .ovulation-img {
+    width: 50%;
+  }
+
+  /* Hormones section styles */
+  .hormones-section {
+    padding: 4rem 2rem;
+  }
+
+  .hormones-div {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 1rem;
+  }
+
+  .hormones-writeup h3 {
+    width: 90%;
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .hormones-writeup div img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: -1.5rem 0 0 -0.3rem;
+  }
+
+  .hormones-writeup span p {
+    font-size: 0.8rem;
+  }
+
+  .hormones-writeup span p br {
+    content: "";
+  }
+
+  .hormones-writeup span p br:after {
+    content: " ";
+  }
+
+
+  .hormones-btn {
+    padding: 0.6rem 2rem;
+  }
+
+  /* Fertility section styles */
+  .fertility-section {
+    padding: 6rem 3rem 2rem 3rem;
+    grid-template-columns: 1fr;
+  }
+
+  .fertility-writeup {
+    text-align: center;
+  }
+
+  .fertility-writeup span h3 {
+    font-size: 1.4rem;
+    width: 100%;
+    line-height: 25px;
+  }
+
+  .fertility-writeup h6 {
+    font-size: 0.7rem;
+    line-height: 16px;
+  }
+
+  .fertility-btn {
+    padding: 0.6rem 2.5rem;
+  }
+
+  .fertility-div {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+  }
+
+  .fertility-div span p {
+    font-size: 1rem;
+  }
+
+  /* Monitor section styles */
+   .monitor-section {
+    padding: 8rem 2rem 2rem 2rem;
+  }
+
+  .monitor-div {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+    padding: 2rem 1.5rem 0.2rem 2rem;
+  }
+
+  .monitor-div .fill {
+    width: 11rem;
+  }
+
+  .monitor-div .dots-img {
+    top: -3.5rem;
+    right: 0;
+    width: 6.5rem;
+    z-index: -1;
+  }
+
+  .monitor-div .star {
+    font-size: 0.9rem;
+  }
+
+  .monitor-writeup span h5 {
+    font-size: 1.2rem;
+    line-height: 25px;
+    margin-bottom: 1rem;
+  }
+
+   .monitor-writeup span h6 br {
+    content: "";
+  }
+
+  .monitor-writeup span h6 br:after {
+    content: " ";
+  }
+
+  .monitor-writeup span h6 {
+    font-size: 0.8rem;
+  }
+
+   /* Question section styles */
+  .question-section {
+    padding: 5rem 2rem 3rem 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .question-section span h3 {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .question-section img {
+    width: 1rem;
+    height: 1rem;
+    margin: -0.9rem 0 0 1rem;
+  }
+
+  .question-container {
+    margin-top: 1.5rem;
+  }
+
+  .question-container div span h5 {
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  .question-container span p {
+    width: 70%;
+  }
+
+  .question-container span p br {
+    content: "";
+  }
+
+  .question-container span p br:after {
+    content: " ";
+  }
+
+  /* Footer section styles */
+  .footer-div {
+    gap: 0.5rem;
+  }
+
+  .footer-div img {
+    width: 2.5rem;
+  }
+
+  .footer-div h6 {
+    font-size: 0.7rem;
+    max-width: 70%;
+  }
+
+  .footer-div .icon-div {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .footer-links-container {
+    display: grid;
+    grid-template-columns: 1fr 200px 200px 240px;
+  }
+
+  .footer-links-container img {
+    width: 4.5rem;
+  }
+
+  .footer-links-container ul {
+    list-style: none;
+  }
+
+  .footer-links-container li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.75rem;
+  }
+
+  footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .copywright span p {
+    color: rgba(250, 250, 250, 0.5);
+    font-size: 0.8rem;
+    line-height: 17px;
+  }
+}  
